@@ -1,0 +1,9 @@
+En la carpeta donde se encuetre el paquete server puede ejecutar:
+-Para compilar.
+	> javac server/*.java
+-Para ejecutar e inicar el servidor.
+	En windows
+	> java -classpath ".;server/connection/sqlite-jdbc.jar" server/Server
+	
+	En distros de Linux
+	> java -classpath ".:server/connection/sqlite-jdbc.jar" server/Server
